@@ -7,7 +7,8 @@
 - Host 半负责保活：DSH 启动 / 服务退出时自动拉起阅读器服务（15s 健康检查）
 - Host 半同时提供 **AI 章节导读 / AI 书架分类代理**（`http://127.0.0.1:7797`）：阅读器把当前章节文本发来生成摘要、导读、结构化分析与思考问题；书架把书名/作者发来按主题分组（仅允许 `127.0.0.1:7788` 阅读器页面调用）
 - 面板右上角支持「刷新」和「独立窗口」
-- 阅读器本体在 `D:\tools\dsh\ebook-reader`（EPUB / PDF / MOBI / AZW3 / Word / TXT 等）
+- 阅读器本体单独开源在 [wisdomzking/moyue-reader](https://github.com/wisdomzking/moyue-reader)（EPUB / PDF / MOBI / AZW3 / Word / TXT 等）
+- 本插件仓库：<https://github.com/wisdomzking/moyue-dsh-plugin>
 
 ## 安装
 
