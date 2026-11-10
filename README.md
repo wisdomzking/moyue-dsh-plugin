@@ -12,6 +12,16 @@
 
 ## 安装
 
+先克隆插件与阅读器本体（建议放在同一父目录，插件默认从 `D:\tools\dsh\ebook-reader` 拉起阅读器）：
+
+```bat
+git clone https://github.com/wisdomzking/moyue-reader.git D:\tools\dsh\ebook-reader
+git clone https://github.com/wisdomzking/moyue-dsh-plugin.git D:\tools\dsh\moyue-dsh-plugin
+cd /d D:\tools\dsh\ebook-reader && npm install
+```
+
+再让 DSH 安装本地插件：
+
 ```text
 plugin_manager action=install_bundle target=D:\tools\dsh\moyue-dsh-plugin
 ```
