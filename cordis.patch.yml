@@ -1,0 +1,3 @@
+- insert:
+    - id: moyue-reader
+      name: '@local/moyue-reader'

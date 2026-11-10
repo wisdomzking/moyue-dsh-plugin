@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="MoYue ebook reader">
+  <defs>
+    <linearGradient id="moyue-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2f6f64"/>
+      <stop offset="1" stop-color="#1d4b44"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#moyue-bg)"/>
+  <g fill="none" stroke="#f6f1e6" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M14 18.5c4.8-2.6 9.9-2.4 15.8.7v27c-5.9-3.1-11-3.3-15.8-.7V18.5Z"/>
+    <path d="M50 18.5c-4.8-2.6-9.9-2.4-15.8.7v27c5.9-3.1 11-3.3 15.8-.7V18.5Z"/>
+    <path d="M21 27.5h5.4M21 33.5h5.4"/>
+  </g>
+</svg>
